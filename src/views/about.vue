@@ -51,7 +51,7 @@ export default {
 
 .tzqy {
     display: flex;
-    padding: 100px;
+    padding: 20px;
 }
 
 

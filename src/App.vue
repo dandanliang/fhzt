@@ -28,7 +28,9 @@
       </ul>
     </nav>
 
-    <router-view></router-view>
+     <transition name="bounce">
+      <router-view></router-view>
+    </transition>
     <fh-footer></fh-footer>
   </div>
 </template>
@@ -44,6 +46,21 @@ export default {
 </script>
 
 <style>
+
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   width: 830px;
@@ -55,7 +72,7 @@ export default {
 
 .logo {
   position: relative;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 .logo div {

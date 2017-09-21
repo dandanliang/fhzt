@@ -1,7 +1,7 @@
 <template>
     <div class='items '>
         <div class='clearfix'>
-            <div style="margin-top:23px;">
+            <div >
                 <div class='_left'>
                     <img src='/static/6.jpg' width='237px' height='237'>
                     <h3>刘秉翰</h3>
@@ -51,19 +51,17 @@ export default {
 .items {
     width: 830px;
     margin: auto;
-
-    padding: 20px 0;
 }
 
 .items ._left {
     float: left;
-    padding: 19px;
+    padding: 0 19px 19px 19px;
 }
 
 h3 {
-    margin: 10px 0;
+    margin: 5px 0;
     font-weight: 100;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Arial Regular', Helvetica, 'microsoft yahei', sans-serif;
 }
 
@@ -106,25 +104,8 @@ h3 {
     zoom: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .items ._right {
     float: right;
-    padding: 19px;
-    /* width: 276px;
-    height: 391px; */
-    /* background: green; */
+     padding: 0 19px 19px 19px;
 }
 </style>

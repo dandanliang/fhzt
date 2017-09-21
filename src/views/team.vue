@@ -170,8 +170,7 @@ export default {
 }
 
 .item {
-    padding-top: 20px;
-    margin-top: 80px;
+
     display: flex;
     /* border-bottom: 1px solid #5d6061; */
 }
@@ -204,7 +203,7 @@ export default {
 .item .names {
     margin: 10px 0;
     font-weight: 100;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Arial Regular', Helvetica, 'microsoft yahei', sans-serif;
 }
 
